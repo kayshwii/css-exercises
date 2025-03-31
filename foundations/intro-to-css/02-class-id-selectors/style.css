@@ -1,0 +1,26 @@
+.odd {
+    background-color: rgb(223, 159, 169);
+    font-family: Verdana, 'DejaVu Sans', sans-serif;
+}
+
+#two {
+    color: rgb(20, 20, 240);
+    font-size: 36px;
+}
+
+.odd.cooler {
+    font-size: 24px;
+}
+
+#four {
+    background-color: rgb(131, 224, 131);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/*
+NOTE!
+font-size in #four is the same as the class selector .cooler
+.cooler only changes the font size
+instead of defining the font size again in #four, we could also just add the class .cooler to div #four
+*/
